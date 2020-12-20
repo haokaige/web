@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6668f634-f4d9-4b17-b57b-3d495ee23fa7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ixCinLywu2L9Yz31X2mgQU1Yfg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HASEE\WebstormProjects\untitled\js\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HASEE\WebstormProjects\untitled\js\img" />
+      <recent name="C:\Users\HASEE\WebstormProjects\untitled\js" />
+      <recent name="C:\Users\HASEE\WebstormProjects\untitled" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6668f634-f4d9-4b17-b57b-3d495ee23fa7" name="Default Changelist" comment="" />
+      <created>1602839985416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602839985416</updated>
+      <workItem from="1602839993040" duration="146000" />
+      <workItem from="1602840149996" duration="1382000" />
+      <workItem from="1603001500284" duration="904000" />
+      <workItem from="1603002424294" duration="7905000" />
+      <workItem from="1603851975544" duration="2000" />
+      <workItem from="1604048588417" duration="1852000" />
+      <workItem from="1604057025442" duration="885000" />
+      <workItem from="1604064551601" duration="2087000" />
+      <workItem from="1604325761766" duration="981000" />
+      <workItem from="1604367457890" duration="4890000" />
+      <workItem from="1605424007992" duration="3740000" />
+      <workItem from="1607872618402" duration="248000" />
+      <workItem from="1608444893499" duration="3969000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="195" key="#HTTP_Proxy" timestamp="1602840029986">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="195" key="#HTTP_Proxy/0.0.1920.1040@0.0.1920.1040" timestamp="1602840029986" />
+    <state x="1032" y="181" key="#Plugins" timestamp="1604065032667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="181" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1604065032667" />
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603001865214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603001865214" />
+    <state x="1178" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604048614858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1178" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604048614858" />
+    <state x="1154" y="264" key="FileChooserDialogImpl" timestamp="1603001864540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1154" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603001864540" />
+    <state x="922" y="165" key="SettingsEditor" timestamp="1604368858102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="922" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604368858102" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1603002204815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603002204815" />
+    <state x="1096" y="244" key="run.anything.popup" timestamp="1604368086312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604368086312" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605426405844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605426405844" />
+  </component>
+</project>

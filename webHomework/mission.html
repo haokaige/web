@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉框和计时</title>
+    <script>
+        function clock() {
+            var time = new Date().toLocaleString();
+            document.getElementById("clock").innerHTML = time;
+        }
+    </script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #main{
+        position: relative;
+        width: 280px;
+        height: 42px;
+    }
+    #content{
+        width: 280px;
+        height: 42px;
+        line-height: 42px;
+        padding-left: 10px;
+        margin-top: 50px;
+        background: rgb(255, 255, 255);
+        border-radius: 2px;
+        border: 1px solid rgb(221, 221, 221);
+        font-size: 16px;
+        font-family: MicrosoftYaHei;
+        color: rgb(51, 51, 51);
+        cursor: pointer;
+    }
+    #selectImg{
+        position: absolute;
+        margin-top: 60px;
+        top:13px;
+        right: 10px;
+        cursor: pointer;
+    }
+    #selectItem{
+        display: none;
+        border: 1px solid #eee;
+        width: 290px;
+    }
+    #selectItem ul{
+        list-style: none;
+    }
+    #selectItem ul li{
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+    #selectItem ul li:hover{
+        background-color:#f5f7fa;
+    }
+</style>
+<body>
+
+<div id="main">
+    <script>
+        setInterval("clock()", 1000);
+    </script>
+    <div id="clock"></div>
+    <div id="content">
+    </div>
+    <img id="selectImg" src="js/img/select.png">
+    <div id="selectItem">
+    </div>
+</div>
+
+</body>
+<script>
+    var data = [{name:'web',value:'1'},{name:'css',value:'2'},{name:'dom',value:'3'},{name:'js',value:'4'}]
+    var content = document.getElementById('content');
+    var selectImg = document.getElementById('selectImg');
+    var selectItem = document.getElementById('selectItem');
+
+    var ul = document.createElement('ul');
+    selectItem.appendChild(ul);
+    for(var i = 0; i < data.length; i++){
+        var li = document.createElement('li');
+        li.setAttribute('data-value',data[i].value);
+        li.innerText = data[i].name;
+        ul.appendChild(li);
+    }
+    selectImg.onclick = function () {
+        console.log(selectItem.style.display);
+        if(selectItem.style.display == 'none' || selectItem.style.display == ''){
+            selectItem.style.display = 'block';
+        }else{
+            selectItem.style.display = 'none';
+        }
+
+    }
+
+    content.onclick = function () {
+        if(selectItem.style.display == 'none' || selectItem.style.display == ''){
+            selectItem.style.display = 'block';
+        }else{
+            selectItem.style.display = 'none';
+        }
+    }
+
+    var lis = selectItem.getElementsByTagName('li');
+    for(var i = 0; i < lis.length; i++){
+        lis[i].onclick = function () {
+            console.log(this.innerHTML,this.getAttribute('data-value'));
+            content.innerText = this.innerHTML;
+            selectItem.style.display = 'none';
+        }
+    }
+</script>
+</html>
